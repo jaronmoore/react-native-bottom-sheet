@@ -37,6 +37,7 @@
     "release": "rm -rf lib && yarn build && release-it",
     "example": "yarn --cwd example",
     "bootstrap": "yarn install && yarn example"
+    "prepare": "yarn build"
   },
   "dependencies": {
     "@gorhom/portal": "1.0.14",
